@@ -1,11 +1,10 @@
 import React from "react";
 import { Link } from "react-router-dom";
-import './styles/Home.css'
-import CampusCard from "./CampusCard";
+import './styles/Students.css'
 
-export default function Home() {
+export default function Students() {
     return (
-        <div className="Home">
+        <div className="students">
             <div className="appNav">
                 <ul id="navList">
                     <li >
@@ -19,23 +18,12 @@ export default function Home() {
                     </li>
                 </ul>
             </div>
-            <h1 id="homeTitle"> Campus Listing</h1>
-
-            <div id="campusBox">
-                <CampusCard />
-                <CampusCard />
-                <CampusCard />
-                <CampusCard />
-                <CampusCard />
-                <CampusCard />
-                <CampusCard />
-                <CampusCard />
-                <CampusCard />
-                <CampusCard />
-                <CampusCard />
-
+            <div >
+                STUDENT PROFILE
             </div>
-
+            <div className="studentContent">
+                CONTENT
+            </div>
         </div>
     )
 }
