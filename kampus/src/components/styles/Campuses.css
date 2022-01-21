@@ -1,0 +1,8 @@
+#homeTitle{
+    text-align: center;
+}
+
+#campusBox{
+    display: flex;
+    flex-wrap: wrap;
+}

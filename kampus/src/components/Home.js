@@ -1,13 +1,12 @@
 import React from "react";
 import { Link } from "react-router-dom";
 import './styles/Home.css'
-import CampusCard from "./CampusCard";
 
 export default function Home() {
 
     // Hooks
     // CONNECT EXPRESS SERVER AND GET LIST OF COLLEGE
-
+    
     return (
         <div className="Home">
             <div className="appNav">
@@ -24,7 +23,6 @@ export default function Home() {
                 </ul>
             </div>
             <h1 id="homeTitle"> Home</h1>
-
 
         </div>
     )

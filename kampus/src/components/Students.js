@@ -1,12 +1,10 @@
 import React from "react";
 import { Link } from "react-router-dom";
 import './styles/Students.css'
+import StudentCard from "./StudentCard";
 
 export default function Students() {
     return (
-
-
-
 
         <div className="students">
             <div className="appNav">
@@ -24,11 +22,20 @@ export default function Students() {
             </div>
             <h1 id="homeTitle"> Student Listing</h1>
 
-            <div >
-                STUDENT PROFILE
-            </div>
-            <div className="studentContent">
-                CONTENT
+            <div id="studentListing">
+                <StudentCard />
+                <StudentCard />
+                <StudentCard />
+                <StudentCard />
+                <StudentCard />
+                <StudentCard />
+                <StudentCard />
+                <StudentCard />
+                <StudentCard />
+                <StudentCard />
+                <StudentCard />
+                <StudentCard />
+
             </div>
         </div>
     )

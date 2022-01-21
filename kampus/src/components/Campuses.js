@@ -1,7 +1,7 @@
 import React from "react";
 import { BrowserRouter as Routes, Link,  } from 'react-router-dom';
 import CampusCard from "./CampusCard";
-
+import './styles/Campuses.css'
 
 export default function Campuses() {
     return (
