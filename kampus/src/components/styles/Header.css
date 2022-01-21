@@ -1,9 +1,9 @@
-#navbar{
+#header{
     background-color: #1047dd;
-    padding: 40px;
+    padding: 15px;
     text-align: center;
   }
 
-#navBarTitle{
+#headerTitle{
     color: white;
 }
