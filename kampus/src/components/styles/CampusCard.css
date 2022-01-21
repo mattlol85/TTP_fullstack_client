@@ -1,0 +1,24 @@
+.campusCard{
+background-color: rgb(119, 119, 119);
+height: 200px;
+width: 350px; 
+justify-content: center;
+display: flex;
+border-radius: 15px;
+margin: 10px;
+}
+
+.campusImg{
+    height: 100px;
+    width: 100px;
+    margin: 10px;
+    border-radius: 100px;
+}
+#campusTitle{
+    text-align: right;
+    margin-right: 20px;
+}
+#campusStudents{
+    text-align: right;
+    margin-right: 30px;
+}
