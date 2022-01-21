@@ -1,11 +1,11 @@
 import React from "react";
-import { BrowserRouter as Router, Routes, Route, Link, Switch } from 'react-router-dom'
-
+import { BrowserRouter as Routes, Link,  } from 'react-router-dom';
+import CampusCard from "./CampusCard";
 
 
 export default function Campuses() {
     return (
-        <div id="campus">
+        <div className="Home">
             <div className="appNav">
                 <ul id="navList">
                     <li >
@@ -19,11 +19,22 @@ export default function Campuses() {
                     </li>
                 </ul>
             </div>
-            <h1>CAMPUS TITLE</h1>
-            <div className="campusInfo">
-                Info about campus.Info about campus.Info about campus.Info about campus.Info about campus.Info about campus.Info about campus.Info about campus.
-                Info about campus.Info about campus.Info about campus.
+            <h1 id="homeTitle"> Campus Listing</h1>
+
+            <div id="campusBox">
+                <CampusCard />
+                <CampusCard />
+                <CampusCard />
+                <CampusCard />
+                <CampusCard />
+                <CampusCard />
+                <CampusCard />
+                <CampusCard />
+                <CampusCard />
+                <CampusCard />
+                <CampusCard />
             </div>
+
         </div>
     )
 }

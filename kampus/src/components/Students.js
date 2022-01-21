@@ -4,6 +4,10 @@ import './styles/Students.css'
 
 export default function Students() {
     return (
+
+
+
+
         <div className="students">
             <div className="appNav">
                 <ul id="navList">
@@ -18,6 +22,8 @@ export default function Students() {
                     </li>
                 </ul>
             </div>
+            <h1 id="homeTitle"> Student Listing</h1>
+
             <div >
                 STUDENT PROFILE
             </div>

@@ -4,6 +4,10 @@ import './styles/Home.css'
 import CampusCard from "./CampusCard";
 
 export default function Home() {
+
+    // Hooks
+    // CONNECT EXPRESS SERVER AND GET LIST OF COLLEGE
+
     return (
         <div className="Home">
             <div className="appNav">
@@ -19,22 +23,8 @@ export default function Home() {
                     </li>
                 </ul>
             </div>
-            <h1 id="homeTitle"> Campus Listing</h1>
+            <h1 id="homeTitle"> Home</h1>
 
-            <div id="campusBox">
-                <CampusCard />
-                <CampusCard />
-                <CampusCard />
-                <CampusCard />
-                <CampusCard />
-                <CampusCard />
-                <CampusCard />
-                <CampusCard />
-                <CampusCard />
-                <CampusCard />
-                <CampusCard />
-
-            </div>
 
         </div>
     )
