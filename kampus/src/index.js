@@ -3,10 +3,28 @@ import ReactDOM from 'react-dom';
 import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
+import { BrowserRouter as Router, Route, Routes } from 'react-router-dom'
+import Campuses from './components/Campuses';
+import Header from './components/Header';
+import Footer from './components/Footer';
+import Home from './components/Home'
+import Students from './components/Students';
 
 ReactDOM.render(
   <React.StrictMode>
-    <App />
+    <Header />
+
+
+    <Router>
+      <Routes>
+        <Route path="/" element={<Home />}> </Route>
+        <Route path="campuses" element={<Campuses />}></Route>
+        <Route path="students" element={<Students />}></Route>
+      </Routes>
+    </Router>
+
+
+    <Footer />
   </React.StrictMode>,
   document.getElementById('root')
 );

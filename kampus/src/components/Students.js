@@ -35,7 +35,6 @@ export default function Students() {
                 <StudentCard />
                 <StudentCard />
                 <StudentCard />
-
             </div>
         </div>
     )
