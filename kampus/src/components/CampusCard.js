@@ -14,8 +14,8 @@ export default function CampusCard() {
             </div>
 
             <div>
-                <button>Edit </button>
-                <button>Delete </button>
+                <button>Edit</button>
+                <button>Delete</button>
             </div>
 
         </div>

@@ -10,8 +10,7 @@
 .appNav{
   display: flex;
   justify-content: center;
-  background-color: #7F00FF;
-  border-radius: 15px;
+  background-color: #253d5b;
 }
 #navList{
   list-style: none;
@@ -22,7 +21,6 @@
 #linkElement{
   font-size: 30px;
   color: white;
-  background-color: #1047DD;
   border-radius: 15px;
   margin: 30px;
   text-decoration: none;
