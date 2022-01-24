@@ -22,7 +22,7 @@ export default function Home() {
                     </li>
                 </ul>
             </div>
-            <h1 id="homeTitle"> Home</h1>
+            <h1 id="homeTitle"> Welcome to Kampus App</h1>
 
         </div>
     )

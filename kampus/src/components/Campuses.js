@@ -1,9 +1,20 @@
 import React from "react";
+import { useState } from "react"
 import {Link} from 'react-router-dom';
+import { Navigate } from 'react-router-dom'
 import CampusCard from "./CampusCard";
 import './styles/Campuses.css'
 
 export default function Campuses() {
+    const [state, setState] = useState({redirect: false})
+
+    function handleChange() {
+        setState({redirect: true})
+        console.log("clicked")
+    }
+    if (state.redirect) {
+        return(<Navigate to="/AddCampus"/>)
+    }
 
 
     return (
@@ -11,19 +22,19 @@ export default function Campuses() {
             <div className="appNav">
                 <ul id="navList">
                     <li >
-                        {/* <Link to="/" id="linkElement" >Home</Link> */}
+                        <Link to="/" id="linkElement" >Home</Link> 
                     </li>
                     <li >
-                        {/* <Link to="/campuses" id="linkElement">Campuses</Link> */}
+                        <Link to="/campuses" id="linkElement">Campuses</Link>
                     </li>
                     <li >
-                        {/* <Link to="/students" id="linkElement">Students</Link> */}
+                        <Link to="/students" id="linkElement">Students</Link> 
                     </li>
                 </ul>
             </div>
 
             <div>
-            <button id="addCampusButton" > Add Campus</button>
+            <button id="addCampusButton" onClick={() => handleChange()}> Add Campus</button>
 
             <h1 id="homeTitle"> Campus Listing</h1>
 
