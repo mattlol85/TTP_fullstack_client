@@ -2,7 +2,7 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
 import reportWebVitals from './reportWebVitals';
-import { BrowserRouter as Router, Route, Routes } from 'react-router-dom'
+import { HashRouter as Router, Route, Routes } from 'react-router-dom'
 import Campuses from './components/Campuses';
 import Header from './components/Header';
 import Footer from './components/Footer';
@@ -18,9 +18,9 @@ ReactDOM.render(
     <Router>
       <Routes>
 
-        <Route path="/" element={<Home />}> </Route>
-        <Route path="/campuses" element={<Campuses />}> </Route>
-        <Route path="/students" element={<Students />}> </Route>
+        <Route exact path="/" element={<Home />}/> 
+        <Route path="/campuses" element={<Campuses />}/> 
+        <Route path="/students" element={<Students />}/> 
 
       </Routes>
     </Router>
