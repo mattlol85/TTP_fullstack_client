@@ -6,3 +6,7 @@
     display: flex;
     flex-wrap: wrap;
 }
+#addCampusButton{
+    float: right;
+    margin: 30px;
+}
