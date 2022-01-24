@@ -12,3 +12,24 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+
+#navList{
+  list-style: none;
+  text-align: center;
+  display: flex;
+}
+
+#linkElement{
+  font-size: 30px;
+  color: white;
+  border-radius: 15px;
+  margin: 30px;
+  text-decoration: none;
+}
+
+.appNav{
+  display: flex;
+  justify-content: center;
+  background-color: #253d5b;
+}
