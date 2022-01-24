@@ -13,8 +13,7 @@ import Students from './components/Students';
 ReactDOM.render(
   <React.StrictMode>
     <Header />
-
-
+    
     <Router>
       <Routes>
         <Route path="/" element={<Home />}> </Route>

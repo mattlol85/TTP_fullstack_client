@@ -19,8 +19,13 @@ export default function Campuses() {
                     </li>
                 </ul>
             </div>
+
+            <div>
+            <button id="addCampusButton"> Add Campus</button>
+
             <h1 id="homeTitle"> Campus Listing</h1>
 
+            </div>
             <div id="campusBox">
                 <CampusCard />
                 <CampusCard />
